@@ -1,0 +1,15 @@
+import java.util.*;
+public class helloWorld {
+  public static void main(String[] args) {
+	  Scanner sc= new Scanner(System.in);
+	  int n=sc.nextInt();
+	  TreeSet<Float> set= new TreeSet<>();
+	 for (int i=0 ;i<n; i++) {
+		 float x=sc.nextFloat();
+		 set.add(x);
+	 }
+	 for (float x:set) {System.out.printf(x+" ");
+	 }
+	 }
+ 
+}
